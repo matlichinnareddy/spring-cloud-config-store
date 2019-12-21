@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/starsDB?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/starsdb?createDatabaseIfNotExist=true
     username: root
     password: siva6878$
     driver-class-name: com.mysql.jdbc.Driver
