@@ -1,11 +1,12 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/starsdb?createDatabaseIfNotExist=true
-    username: root
-    password: siva6878$
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:sqlserver://10.2.20.26:1433;databaseName=stars_QA
+    username: suiteapp
+    password: h@ppyC0w52
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    
   jpa:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-
+    show-sql: true
